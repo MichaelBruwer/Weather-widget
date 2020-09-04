@@ -1,0 +1,51 @@
+.card {
+  margin: 10px;
+}
+
+.wrapme {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cbg {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.cbg1 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.cbg2 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cbg3 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cbg4 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.bg {
+  background-image: url('storm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.al {
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* for centering 3 blocks in the center */
+  /* justify-content: space-between; for space in between */
+}
+.block {
+  width: 100px;
+}

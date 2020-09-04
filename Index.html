@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather -app</title>
+  </head>
+  <body>
+    <!-- <h1>Weather List</h1> -->
+    <div>
+      <h1 id="header ">Weather Widget</h1>
+
+      <div style="color: black">
+        <div class="row center">
+          <div class="card wrapme bg" id="days ">
+            <div class="col s3.5">
+              <div id="content">
+                <div class="card-title" id="place"></div>
+                <div id="day"></div>
+                <div class="row">
+                  <div class="block">
+                    <div id="cloud"></div>
+                    <div id="conditionsDesc"></div>
+                  </div>
+
+                  <h4><span id="Temp"></span>°</h4>
+                  <div
+                    class="wrapme card-content block"
+                    style="text-align: left"
+                  >
+                    <div style="text-align: left">
+                      <p>HI:<span id="maxTemp"></span>°C</p>
+                      <p>LOW:<span id="minTemp"></span>°C</p>
+                    </div>
+                  </div>
+
+                  <div style="text-align: left" class="block">
+                    <!-- <p>Precip:<span id="precip"></span>%</p> dont know what this is called on api/.json -->
+                    <p>Humidity:<span id="humid"></span>%</p>
+                    <p>Winds:<span id="wind"></span>Kph</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card cbg col s1.5" id="day1">
+              <div id="content1">
+                <div id="cloud1"></div>
+                <div>
+                  <p>
+                    <span id="maxTemp1"></span> °/
+
+                    <span id="minTemp1"></span> °
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card cbg1 col s1.5" id="day2">
+              <div id="content2">
+                <div id="cloud2"></div>
+                <div>
+                  <p>
+                    <span id="maxTemp2"></span> °/
+
+                    <span id="minTemp2"></span> °
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card cbg2 col s1.5" id="day3">
+              <div id="content3">
+                <div id="cloud3"></div>
+                <div>
+                  <p>
+                    <span id="maxTemp3"></span> °/
+
+                    <span id="minTemp3"></span> °
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card cbg3 col s1.5" id="day4">
+              <div id="content4">
+                <div id="cloud4"></div>
+                <div>
+                  <p>
+                    <span id="maxTemp4"></span> °/
+
+                    <span id="minTemp4"></span> °
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card cbg4 col s1.5" id="day5">
+              <div id="content5">
+                <div id="cloud5"></div>
+                <div>
+                  <p>
+                    <span id="maxTemp5"></span> °/
+
+                    <span id="minTemp5"></span> °
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="main.js"></script>
+  </body>
+</html>
